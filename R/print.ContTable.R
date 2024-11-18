@@ -288,7 +288,7 @@ function(x,                       # ContTable object
     outColNames <- colnames(out)
     ## Add n at the correct location depending on the number of columns added (level and/or p)
     nRow <- c(strataN, rep("", ncol(out) - length(strataN))) # Additional padding to right
-    out <- out[order(rownames(out)), ]
+    out <- out[order(rownames(out)), , drop = FALSE]
 
     out <- rbind(n = nRow, out)
     ## Put back the column names (overkill for non-multivariable cases)
