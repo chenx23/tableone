@@ -2,18 +2,18 @@ Package: tableone
 Type: Package
 Title: Create 'Table 1' to Describe Baseline Characteristics with or
         without Propensity Score Weights
-Version: 0.13.2
-Date: 2022-01-20
+Version: 0.14.0
+Date: 2024-11-18
 Authors@R: c(
-    person('Xiaojian', 'Chen', email = 'xiaojian.chen@astrazeneca.com', role = c('cre','aut'))
+    person('Xiaojian', 'Chen', email = 'chenxiaojian@gmail.com', role = c('cre','aut'))
     )
-Maintainer: Xiaojian Chen <xiaojian.chen@astrazeneca.com>
+Maintainer: Xiaojian Chen <chenxiaojian@gmail.com>
 Description: Creates 'Table 1', i.e., description of baseline patient
     characteristics, which is essential in every medical research.
     Supports both continuous and categorical variables, as well as
     p-values and standardized mean differences. Weighted data are
     supported via the 'survey' package. New features are added to 
-    the original version on CRAN to fit the RWE team's need at AstraZeneca.
+    the original version on CRAN.
 License: GPL-2
 Imports: survey, MASS, e1071, zoo, gmodels, nlme, labelled
 Suggests: survival, testthat, Matrix, Matching, reshape2, ggplot2,
@@ -22,4 +22,4 @@ VignetteBuilder: knitr
 RoxygenNote: 7.1.2
 NeedsCompilation: no
 Author: Xiaojian Chen [cre, aut]
-Packaged: 2022-01-20 15:34:52 UTC; kpfm262
+
